@@ -1,0 +1,2 @@
+# appNgfor
+Practica Ionic Ngfor
