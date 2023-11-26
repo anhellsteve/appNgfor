@@ -6,7 +6,21 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-
-  constructor() {}
-
+  marvelList: any[];
+  constructor() {
+    this.marvelList = [
+      {
+        name: 'Iron Man',
+        color: 'red',
+      },
+      {
+        name: 'Capitan America',
+        color: 'blue',
+      },
+      {
+        name: 'Hulk',
+        color: 'green',
+      },
+    ];
+  }
 }
